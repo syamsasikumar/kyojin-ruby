@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    crass (0.2.1)
+    mini_portile (0.6.0)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
+    nokogumbo (1.1.9)
+      nokogiri
+    sanitize (3.0.0)
+      crass (~> 0.2.0)
+      nokogiri (>= 1.4.4)
+      nokogumbo (= 1.1.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nokogiri
+  sanitize
