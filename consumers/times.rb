@@ -8,9 +8,10 @@ class Times < Consumer
       {
         'title' => i.at_xpath('title').text, 
         'link' => i.at_xpath('link').text, 
+        'guid' => i.at_xpath('guid').text,
         'description' => i.at_xpath('description').text,
         'thumbnail' => '',
-        'date' => i.at_xpath('pubDate').text
+        'date' => Time.parse(i.at_xpath('pubDate').text).to_i
       }
     end
     return feeds
