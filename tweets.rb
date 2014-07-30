@@ -1,3 +1,4 @@
+#fetches tweets from twitter list and sends to mongo lab
 require 'twitter'
 Dir['./db/*.rb'].each{ |f| require f }
 

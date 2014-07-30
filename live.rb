@@ -1,3 +1,4 @@
+#fetches live score updates and sends to mongolab
 require 'open-uri'
 require 'nokogiri'
 require 'digest'

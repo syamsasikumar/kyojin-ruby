@@ -3,6 +3,7 @@ require 'rubygems'
 
 include Mongo
 
+#@todo : store in config
 class Db
   @@host = 'ds053469.mongolab.com'
   @@user = 'kyojin'

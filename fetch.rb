@@ -1,3 +1,4 @@
+#source to fetch soccer news from UK News papers RSS feeds - sends to mongolab
 require 'sanitize'
 require 'htmlentities'
 require 'digest'
@@ -9,7 +10,7 @@ def sanitize text
 end
 
 type = 'news'
-#news_source = ['bbc', 'sky', 'dm', 'times', 'guardian']
+#news_source = ['bbc', 'sky', 'dm', 'times', 'guardian'] DM seems to send too many
 news_source = ['bbc', 'sky', 'times', 'guardian']
 db = Db.new
 
