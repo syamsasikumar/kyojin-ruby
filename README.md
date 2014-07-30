@@ -1,4 +1,4 @@
-![kyojin](http://res.cloudinary.com/dtmnbo2hw/image/upload/v1406761413/good-titan_qugruq.jpg)
+![kyojin](http://res.cloudinary.com/dtmnbo2hw/image/upload/c_scale,h_154/v1406761413/good-titan_qugruq.jpg)
 
 Kyojin contains Ruby scripts to fetch soccer data. Data is fetched from 3 different mediums -
 * UK news RSS
